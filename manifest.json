@@ -1,0 +1,14 @@
+{
+  "name": "Tab Productivity Checker",
+  "version": "1.0.4",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
